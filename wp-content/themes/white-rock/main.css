@@ -1,0 +1,144 @@
+html body { 
+	background: #000;
+	color: #fff;
+	line-height: 30px;
+	font-weight: 300;
+}
+
+.text-center { text-align: center;}
+
+#header { z-index: 9999;}
+
+/*#main { margin-top: 150px;}*/
+
+#header .sf-menu a { 
+	padding: 20px 35px;
+	font-size: 18px;
+	font-style: normal;
+	text-transform: capitalize;
+	color: #002c48;	
+	font-weight: 400;
+}
+
+#header nav { float: right;}
+
+#header .sf-menu li {
+	background-color: rgba(255,255,255,.7);
+	border-right: 2px solid #000!important;
+	border-bottom: 2px solid #000!important;
+	border-top: 2px solid #000!important;
+}
+
+#header .sf-menu li.current_page_item,
+#header .sf-menu li a:hover {
+	background: #000!important;
+	color: #fff;
+}
+
+#header .sf-menu li.current_page_item a { color: #fff;}
+
+#heroSlider { position: relative; overflow: hidden;}
+
+.logo-content {
+	position: absolute;
+    top: 0px;
+    left: 60px;
+    z-index: 9999;
+    max-width: 250px;
+    background-color: #000;
+    font-size: 18px;
+    padding: 20px 30px;
+    text-align: justify;
+}
+
+.logo-content img {
+	margin-bottom: 25px;
+}
+
+#homepage-slider-container .flexslider {
+	border: none;
+	margin: 0;
+}
+
+.transify { border: none!important;}
+
+.flex-control-paging li a.flex-active {
+	background: #98C22A!important;
+} 
+
+.flex-control-nav { bottom: 0!important;}
+
+#heroSlider .slides {
+	border-bottom: 3px solid #98C22A;
+} 
+
+#heroSlider .flex-control-nav li a { margin: 0 3px;}
+
+.flex-direction-nav { display: none!important;}
+
+.wrap-language {
+	float: left;
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	line-height: 53px;
+}
+
+.wrap-language li {
+	float: left;
+	padding-right: 10px;
+}
+
+#heroSlider .nemus-control-paging a {
+	background: #969696;
+	border: none;
+}
+
+#heroSlider .nemus-active {
+	background: #98C22A!important;
+}
+
+#header .current-menu-item a { color: #fff;}
+
+#header .current-menu-item { background: rgba(0,0,0,1)!important;}
+
+.common-post a {
+	color: #fff;
+}
+
+.common-post h1 {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.italic { font-style: italic!important;}
+
+.read-more {
+	display: block;
+	font-size: 14px;
+	background: #252525;
+	padding: 5px 0;
+}
+
+.brd {
+	height: 8px;
+	background: rgb(221, 221, 221);
+    opacity: 0.5;
+    margin-top: -8px;
+}
+
+#footer {
+	background: #252525;
+}
+
+	.copy-right {
+		line-height: 78px;
+		font-size: 14px;
+		color: #898989;
+	}
+
+	#footer li a {
+		font-size: 14px;
+		color: #898989;
+		font-weight: bold;
+	}
