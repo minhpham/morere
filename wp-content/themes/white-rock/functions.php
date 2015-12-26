@@ -724,7 +724,6 @@ function whiterock_customize_css()
 #tweets-sidebar:before {border-top: 10px solid <?php echo get_theme_mod('content_bg', '#f2f1ed'); ?>;}
 
 .menu-item-container {border-bottom:4px solid <?php echo get_theme_mod('hightlight_bg', '#88a5b1'); ?>; }
-body ul#open-hours li, body #main ul.menu-items li, .type-post {border-bottom:1px dotted <?php echo get_theme_mod('secondary_hightlight_bg', '#bdb7a4'); ?>; }
 .header-underline {border-bottom:3px solid <?php echo get_theme_mod('secondary_hightlight_bg', '#bdb7a4'); ?>;}
 #sidebar {border-left:1px dotted <?php echo get_theme_mod('secondary_hightlight_bg', '#bdb7a4'); ?>;}
 body {color:<?php echo get_theme_mod('body_text', '#5f6567'); ?>;}

@@ -131,7 +131,6 @@ hr {border-bottom:1px solid #bdb7a4; }
 #tweets-sidebar {background:#f2f1ed;}
 #tweets-sidebar:before {border-top: 10px solid #f2f1ed;}
 .menu-item-container {border-bottom:4px solid #88a5b1; }
-body ul#open-hours li, body #main ul.menu-items li, .type-post {border-bottom:1px dotted #bdb7a4; }
 .header-underline {border-bottom:3px solid #bdb7a4;}
 #sidebar {border-left:1px dotted #bdb7a4;}
 
@@ -147,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {color:#7b7562;}
 /* -------------------- C. FONT FAMILIES -------------------- */
 html body {
 	font-family: 'Oswald', Arial,sans-serif;
-	font-size: 18px;
+	font-size: 17px;
 }
 
 /* -------------------- D. SOCIAL ICONS -------------------- */

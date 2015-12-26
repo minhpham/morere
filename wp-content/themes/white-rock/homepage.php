@@ -43,18 +43,9 @@ get_header(); ?>
 			<!-- close post -->
 			</div>
 			<div class="col-lg-4 col-sm-6">
-				<!-- this code pull in the homepage content -->
-				<?php while(have_posts()): the_post(); ?>
-					<?php $cc = get_the_content(); if($cc != '') { ?>
-						<div class="content-container">
-							<div class="container-spacing">		
-							<?php the_content(); ?>	
-							</div><!-- close .content-container-spacing -->
-						</div><!-- close .content-container -->
-					<?php } ?>
-				<?php endwhile; ?>
+				<?php dynamic_sidebar( 'Lunch Widgets Column 1' ); ?>
 			</div>
-						<div class="col-lg-4 col-sm-6">
+			<div class="col-lg-4 col-sm-6">
 			<!-- show post -->
 			<?php query_posts('category_name=honey&showposts=1');
 			while (have_posts()) : the_post();
@@ -72,7 +63,7 @@ get_header(); ?>
 			<!-- close post -->
 			</div>
 		</div>
-		<div class="row" style="margin: 40px 0;">
+		<div class="row">
 			<div class="col-lg-4 col-sm-6">
 			<!-- show post -->
 			<?php query_posts('category_name=tea&showposts=1');
@@ -157,6 +148,4 @@ get_header(); ?>
 		<!-- Homepage Child Pages End -->
 	
 <div class="clearfix"></div>
-<?php if(of_get_option('homepage_sidebar', '0')): ?></div><!-- close #container-sidebar -->
-<?php get_sidebar(); ?><?php endif; ?>
 <?php get_footer(); ?>

@@ -142,3 +142,35 @@ html body {
 		color: #898989;
 		font-weight: bold;
 	}
+
+.text-slogan {
+	font-size: 21px;
+    font-style: italic;
+    line-height: 31px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.sub-header {
+ 	font-size: 26px!important;
+ 	padding: 10px 0;
+ 	color: #fff;
+ 	font-style: normal;
+ 	font-weight: 300;
+}
+
+.heading {
+	font-size: 26px;
+	color: #696969;
+	text-transform: uppercase;
+    font-weight: 300;
+}
+
+.common-style dd {
+	margin: 10px 0 0 0;
+}
+
+.common-style em {
+	font-size: 18px;
+	display: block;
+}
