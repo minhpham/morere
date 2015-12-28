@@ -59,6 +59,6 @@
 		</div>
 		<div class="portfolio-post-background">
 			<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
-			<p><?php echo get_the_excerpt(); ?></p>
+			<p class="dotdotdot"><?php echo get_the_excerpt(); ?></p>
 		</div>
 </div><!-- close .content-container -->

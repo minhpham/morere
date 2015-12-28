@@ -19,7 +19,6 @@ get_header(); ?>
 			<div class="blog-post-excerpt">
 				<?php the_content(); ?>
 			</div>
-			
 		</div><!-- close .blog-post-background -->
 	</div><!-- #post-<?php the_ID(); ?> -->
 

@@ -25,22 +25,23 @@ get_header(); ?>
 		<?php if(of_get_option('homepage_sidebar', '0')): ?><div id="container-sidebar"><!-- sidebar content container --><?php endif; ?>
 				
 		<div class="row">
-			<div class="col-lg-4 col-sm-6">
-			<!-- show post -->
-			<?php query_posts('category_name=coffee&showposts=1');
-			while (have_posts()) : the_post();
-			  // do whatever you want
-			?>
-			<div class="common-post text-center italic">
+			<div class="col-lg-4 col-sm-6 common-post text-center">
+				<!-- show post -->
+				<?php query_posts('category_name=coffee&showposts=1');
+
+				while (have_posts()) : the_post();
+				  // do whatever you want
+				?>
+			
 				<h1 class="title-post"><a href="<?php the_permalink() ?>">Specialty Coffee</a></h1>
 				<?php the_post_thumbnail('large') ?>
 				<div class="brd"></div>
 				<a class="read-more" href="<?php the_permalink() ?>">Read More</a>
-			<?php
-			endwhile;
-			?>
-			</div>
-			<!-- close post -->
+				<?php
+				endwhile;
+				?>
+				
+				<!-- close post -->
 			</div>
 			<div class="col-lg-4 col-sm-6">
 				<?php dynamic_sidebar( 'Lunch Widgets Column 1' ); ?>
@@ -63,7 +64,7 @@ get_header(); ?>
 			<!-- close post -->
 			</div>
 		</div>
-		<div class="row">
+		<div class="row" style="margin: 40px 0;">
 			<div class="col-lg-4 col-sm-6">
 			<!-- show post -->
 			<?php query_posts('category_name=tea&showposts=1');

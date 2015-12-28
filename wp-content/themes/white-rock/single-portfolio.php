@@ -42,7 +42,7 @@ while(have_posts()): the_post();
 ?>
 
 <?php if(of_get_option('portfolio_sidebar_single', '0')): ?><div id="container-sidebar"><!-- sidebar content container --><?php endif; ?>
-	<div class="portfolio-single-container">
+	<div class="portfolio-single-container" id="detail-product">
 		
 		
 		

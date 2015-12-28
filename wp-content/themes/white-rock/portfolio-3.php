@@ -14,7 +14,12 @@ get_header(); ?>
 		?>
 		<div id="page-title">
 			<div class="width-container paged-title">
-				<h1><?php the_title(); ?></h1>	
+				<!-- <h1><?php the_title(); ?></h1>	 -->
+				<?php while(have_posts()): the_post(); ?>
+					<div class="heading-product">
+					<?php the_content(); ?>
+					</div>
+				<?php endwhile; ?>
 			</div>
 		<div id="page-title-divider"></div>
 		</div><!-- #page-title -->
@@ -47,11 +52,6 @@ get_header(); ?>
 	<div class="width-container">
 
 <?php get_template_part( 'child-page', 'navigation' ); ?>
-
-<?php while(have_posts()): the_post(); ?>
-	<?php the_content(); ?>
-	<div class="clearfix"></div>
-<?php endwhile; ?>
 
 
 <div id="portfolio-post-container">
